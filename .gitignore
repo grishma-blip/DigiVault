@@ -51,4 +51,7 @@ app.*.map.json
 TECHNICAL_DOCUMENTATION.html
 TECHNICAL_DOCUMENTATION.md
 TECHNICAL_PRESENTATION_DOC.md
+*.pdf
+DigiVault_Official_Documentation.pdf
+
 

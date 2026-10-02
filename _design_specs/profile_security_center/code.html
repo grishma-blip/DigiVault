@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#00201d", "inverse-primary": "#b6c4ff", "tertiary": "#00302b", "surface-container-high": "#e0e8ff", "primary-fixed-dim": "#b6c4ff", "outline": "#757682", "error": "#ba1a1a", "secondary-fixed-dim": "#b7c4fd", "on-tertiary-fixed-variant": "#005049", "on-primary-container": "#94a8f5", "surface-container": "#e9edff", "on-tertiary-container": "#4cbcaf", "error-container": "#ffdad6", "tertiary-fixed-dim": "#6bd8cb", "on-primary-fixed": "#00164f", "on-primary": "#ffffff", "surface-tint": "#465aa1", "primary-fixed": "#dce1ff", "on-primary-fixed-variant": "#2d4287", "surface-bright": "#f9f9ff", "inverse-on-surface": "#edf0ff", "on-error": "#ffffff", "on-secondary-container": "#435081", "on-surface-variant": "#444651", "on-surface": "#141b2c", "background": "#f9f9ff", "on-secondary": "#ffffff", "secondary-fixed": "#dce1ff", "primary-container": "#253b80", "on-secondary-fixed": "#071747", "tertiary-container": "#004842", "tertiary-fixed": "#89f5e7", "on-secondary-fixed-variant": "#374475", "outline-variant": "#c5c5d2", "primary": "#072369", "on-error-container": "#93000a", "surface-dim": "#d2daf0", "surface-container-low": "#f1f3ff", "inverse-surface": "#293041", "surface": "#f9f9ff", "on-background": "#141b2c", "surface-container-highest": "#dbe2f9", "secondary-container": "#b7c4fd", "surface-variant": "#dbe2f9", "surface-container-lowest": "#ffffff", "secondary": "#4f5c8e", "on-tertiary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2rem", "gutter": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "margin": "1.25rem", "space-xs": "0.25rem", "space-lg": "1.5rem" }, "fontFamily": { "label-md": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"], "headline-lg": ["Plus Jakarta Sans"], "body-md": ["Inter"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "mono-code": ["Inter"], "headline-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "label-lg": ["Inter"] }, "fontSize": { "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "mono-code": ["13px", { "lineHeight": "18px", "letterSpacing": "0.05em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface text-on-surface flex flex-col min-h-screen antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="DigiVault Brand Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XaPT2hPAZaP1PRF3DRukrOHK7h9ewr_hz89HxRiGqR6HoMDpq4SY0RIhdWwWsM6Sseu4rYr59j4SBphYQvPl9NfNwv2fdv4DMKGnzQHJIsiTvxwH6ErWVDvbZ86iSrOBWwJVdRzJhmgGno26mVMdhNWdn7zV_ct77sjMlxV4dgsGtZgrfvC9zWweV4VsyaW04azzLiD1GwA6jYkW5CnqJ3cM-7fYQzg9_m55tawmuiHjc55KwBzS5Ktw"/><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-primary tracking-tight truncate leading-none">DigiVault</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Home</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><a aria-label="Notifications" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" data-path="notifications" href="#"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-error ring-2 ring-surface"></span></a><a aria-label="Profile Grishma Thakare" class="relative flex items-center justify-center p-0.5 rounded-full hover:ring-2 hover:ring-primary-container transition-all" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1SAyE3zQo2civeNcaDnelIaw36fP4iDIzqKKocfMwWBMEpVwsJk51YBvtB0qoDuNUHAX_1bgkNisHpPnEabd0lpbj5ApbD0vOPxwFLAdldsKGfC40EfWIjLKDI3TG2pj6XaRS-IAYAmW1qTj6iz5EMYTBypP8aUoJgVez_dOqydVREEnDfjcGcjPMJ0yJfLbsl-S78GHGsAu3AXCQMFwpJqFsuWSNi3e41oyApvZIjElhCvVA-nXd"/></a></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full px-margin pb-10 gap-space-lg">
+<!-- Interactive Action Subheader -->
+<div class="flex items-center justify-between pt-2">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary tracking-tight">Security &amp; Identity</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sovereign cryptographic credentials</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Show Vault QR ID" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-95 transition-transform shadow-sm" onclick="this.classList.toggle('bg-primary-fixed')" type="button">
+<span class="material-symbols-outlined text-[20px]">qr_code_2</span>
+</button>
+<button aria-label="Edit Profile Details" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-95 transition-transform shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Identity Dossier Card -->
+<div class="relative w-full rounded-xl bg-surface-container-lowest p-space-md shadow-sm overflow-hidden flex flex-col gap-space-md">
+<!-- Subtle Guilloche security flourish -->
+<div class="absolute -right-12 -top-12 w-40 h-40 rounded-full bg-primary/5 pointer-events-none blur-2xl"></div>
+<div class="flex items-center gap-space-md relative">
+<!-- Avatar Stack with Sovereign Badge -->
+<div class="relative flex-shrink-0">
+<div class="w-20 h-20 rounded-full overflow-hidden bg-surface-container-high p-0.5 shadow-sm">
+<img alt="Grishma Thakare profile portrait" class="w-full h-full object-cover rounded-full" src="https://lh3.googleusercontent.com/aida/AEtjO1XbBwatPxn8Pe1DrAHVsxP-X1eSKUQfj0cycp9uOOzbVlHeAb3Jndjs7Xclg9SxCTEc3cf-Q3TBPaPBP51V84Y9M6lwWoU6FoYMzmEtibxCh-aIdoMm2WjG0oui7ShLuEWZ1-pIqocerfKR9eRGsLaBHcMUzZNaLEmXDtGP9gRCFdevoSlVCN4jqZKbqZT950Z3_7nPOXPaEaaC9pHFlVehKRXsY1R0A1GPBMjFxTsI1Gsay7Ah8KL5Hw"/>
+</div>
+<span class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-tertiary-container text-on-tertiary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</span>
+</div>
+<!-- Identity Details -->
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Grishma Thakare</h2>
+</div>
+<p class="font-label-md text-label-md text-secondary truncate">B.Tech CSE &amp; AI • ITM Skills University</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate mt-0.5">grishma.demo@itm.edu</p>
+<p class="font-mono-code text-body-sm text-outline tracking-wider mt-0.5">+91 98*** **210</p>
+</div>
+</div>
+<!-- Verification Pill Badge -->
+<div class="w-full rounded-lg bg-surface-container-low px-3 py-2 flex items-center justify-between">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-tertiary text-[18px]" style="font-variation-settings: 'FILL' 1;">shield_with_heart</span>
+<span class="font-label-sm text-label-sm text-on-surface truncate">Citizen Verified (UIDAI Demo Matched)</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary text-on-tertiary font-label-sm text-label-sm uppercase tracking-wider flex-shrink-0">ACTIVE</span>
+</div>
+</div>
+<!-- Vault Protection & Security Score Card -->
+<div class="w-full rounded-xl bg-primary text-on-primary p-space-md shadow-md relative overflow-hidden flex flex-col gap-space-md">
+<!-- Ambient micro-pattern -->
+<div class="absolute -left-10 -bottom-10 w-32 h-32 rounded-full bg-tertiary-fixed/10 pointer-events-none blur-xl"></div>
+<div class="absolute right-4 top-4 opacity-10">
+<span class="material-symbols-outlined text-[72px]">security</span>
+</div>
+<div class="flex items-start justify-between relative">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Cryptographic Health</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary mt-0.5">Vault Security: 98% Strong</h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-tertiary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">lock</span>
+</div>
+</div>
+<!-- Animated Horizontal Progress Gauge -->
+<div class="flex flex-col gap-1.5 relative">
+<div class="w-full h-2.5 rounded-full bg-primary-container overflow-hidden p-0.5">
+<div class="h-full rounded-full bg-tertiary-fixed transition-all duration-700 w-[98%]"></div>
+</div>
+<div class="flex justify-between items-center text-primary-fixed font-label-sm text-label-sm">
+<span>Hardware Enclave Secured</span>
+<span class="font-mono-code text-body-sm">Zero Vulnerabilities</span>
+</div>
+</div>
+<!-- Active Hardware Guarantees -->
+<div class="grid grid-cols-3 gap-space-xs pt-1 relative">
+<div class="flex flex-col items-center text-center p-2 rounded-lg bg-primary-container/80 backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed mb-1" style="font-variation-settings: 'FILL' 1;">fingerprint</span>
+<span class="font-label-sm text-label-sm text-on-primary leading-tight">Biometrics Enabled</span>
+</div>
+<div class="flex flex-col items-center text-center p-2 rounded-lg bg-primary-container/80 backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed mb-1" style="font-variation-settings: 'FILL' 1;">pin</span>
+<span class="font-label-sm text-label-sm text-on-primary leading-tight">6-Digit PIN Active</span>
+</div>
+<div class="flex flex-col items-center text-center p-2 rounded-lg bg-primary-container/80 backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed mb-1" style="font-variation-settings: 'FILL' 1;">memory</span>
+<span class="font-label-sm text-label-sm text-on-primary leading-tight">Key Isolation</span>
+</div>
+</div>
+</div>
+<!-- Settings Category 1: Security & Access -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface-variant px-1 uppercase tracking-wider">Security &amp; Access</span>
+<div class="flex flex-col rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<!-- Biometrics Toggle Row -->
+<div class="flex items-center justify-between p-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">fingerprint</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">App Lock &amp; Biometrics</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Face ID • Touch Sensor</span>
+</div>
+</div>
+<!-- Accessible Native Toggle -->
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0 ml-2">
+<input checked="" class="sr-only peer" id="bioToggle" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-surface-container-lowest after:rounded-full after:h-6 after:w-6 after:transition-all after:shadow-sm peer-checked:bg-tertiary-container"></div>
+</label>
+</div>
+<!-- App PIN Row -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">password</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Change 6-Digit App PIN</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Rotated 14 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+<!-- Active Sessions Row -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">devices</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Active Sessions &amp; Devices</span>
+<span class="font-body-sm text-body-sm text-secondary truncate">2 Active (Pixel 8, MacBook Pro)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+<!-- Cryptographic Audit Trail Row -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Cryptographic Audit Trail</span>
+<span class="font-body-sm text-body-sm text-on-tertiary-container truncate">All signatures verified</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Settings Category 2: Account & Integrations -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface-variant px-1 uppercase tracking-wider">Account &amp; Integrations</span>
+<div class="flex flex-col rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<!-- Connected Issuers -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Connected Issuers</span>
+<span class="font-body-sm text-body-sm text-secondary truncate">4 Demo Issuers (UIDAI, MoRTH, ITM, CBDT)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+<!-- Partner API Sandbox -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">hub</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Partner API Access</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">1 Sandbox Application Connected</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+<!-- Storage & Cloud Backup -->
+<div class="flex items-center justify-between p-space-md">
+<div class="flex items-center gap-space-md min-w-0 flex-1">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">cloud_done</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1 mr-3">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface truncate">Storage &amp; Cloud Backup</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">1.2 / 5 GB</span>
+</div>
+<!-- Lightweight Mini Storage Bar -->
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest mt-2 overflow-hidden">
+<div class="h-full rounded-full bg-secondary w-[24%]"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Settings Category 3: Preferences & Help -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface-variant px-1 uppercase tracking-wider">Preferences &amp; Help</span>
+<div class="flex flex-col rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<!-- Notification Center -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Notifications Center</span>
+<span class="font-body-sm text-body-sm text-error truncate font-medium">2 Unread Security Alerts</span>
+</div>
+</div>
+<span class="w-2.5 h-2.5 rounded-full bg-error mr-1"></span>
+</button>
+<!-- FAQ & Sandbox Disclaimer -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">help_center</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Help, FAQs &amp; Sandbox Disclaimer</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Academic testing parameters</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+<!-- Privacy & Terms -->
+<button class="w-full flex items-center justify-between p-space-md hover:bg-surface-container-low transition-colors text-left" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">policy</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Terms of Use &amp; Academic Privacy</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Zero telemetry sovereign policy</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Destructive Sovereign Lock Action -->
+<div class="pt-2 flex flex-col gap-3">
+<button class="w-full h-[52px] rounded-xl bg-error-container text-error font-label-lg text-label-lg flex items-center justify-center gap-2 active:scale-[0.98] transition-transform shadow-sm" onclick="this.innerHTML='&lt;span class=\'material-symbols-outlined animate-spin text-[20px]\'&gt;sync&lt;/span&gt; Locking Vault...'" type="button">
+<span class="material-symbols-outlined text-[20px]">enhanced_encryption</span>
+      Lock Vault &amp; Sign Out
+    </button>
+<!-- Sovereign Verification Footer Marker -->
+<div class="flex flex-col items-center justify-center text-center gap-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant opacity-75">
+<span class="material-symbols-outlined text-[14px]">token</span>
+<span class="font-label-sm text-label-sm">DigiVault Sovereign Prototype v2.4</span>
+</div>
+<p class="font-label-sm text-label-sm text-outline">Academic Demo Build • Department of CSE &amp; AI</p>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for toggle feedback
+  const bioToggle = document.getElementById('bioToggle');
+  if (bioToggle) {
+    bioToggle.addEventListener('change', (e) => {
+      const parent = e.target.closest('.flex');
+      if (e.target.checked) {
+        parent.style.opacity = '1';
+      } else {
+        parent.style.opacity = '0.75';
+      }
+    });
+  }
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-4px_16px_rgba(20,27,44,0.06)]" data-active-classes="text-primary font-bold"><div class="flex items-center justify-between h-20 px-space-xs relative"><a class="flex-1 flex flex-col items-center justify-center py-1 gap-1 text-on-surface-variant min-h-[48px] transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex-1 flex flex-col items-center justify-center py-1 gap-1 text-on-surface-variant min-h-[48px] transition-colors" data-path="my-documents" href="#"><span class="material-symbols-outlined text-[24px]">folder</span><span class="font-label-sm text-label-sm">Documents</span></a><div class="flex-1 flex items-center justify-center -mt-5"><a aria-label="Add Document" class="w-14 h-14 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_4px_12px_rgba(37,59,128,0.25)] hover:scale-105 active:scale-95 transition-transform" data-path="add-document" href="#"><span class="material-symbols-outlined text-[28px]">add</span></a></div><a class="flex-1 flex flex-col items-center justify-center py-1 gap-1 text-on-surface-variant min-h-[48px] transition-colors relative" data-path="share-transfer" href="#"><span class="material-symbols-outlined text-[24px]">share</span><span class="font-label-sm text-label-sm">Share</span><span class="absolute top-1.5 right-6 w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span></a><a class="flex-1 flex flex-col items-center justify-center py-1 gap-1 text-on-surface-variant min-h-[48px] transition-colors" data-path="profile" href="#"><span class="material-symbols-outlined text-[24px]">shield_person</span><span class="font-label-sm text-label-sm">Profile</span></a></div></nav></body></html>

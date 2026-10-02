@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#00201d", "inverse-primary": "#b6c4ff", "tertiary": "#00302b", "surface-container-high": "#e0e8ff", "primary-fixed-dim": "#b6c4ff", "outline": "#757682", "error": "#ba1a1a", "secondary-fixed-dim": "#b7c4fd", "on-tertiary-fixed-variant": "#005049", "on-primary-container": "#94a8f5", "surface-container": "#e9edff", "on-tertiary-container": "#4cbcaf", "error-container": "#ffdad6", "tertiary-fixed-dim": "#6bd8cb", "on-primary-fixed": "#00164f", "on-primary": "#ffffff", "surface-tint": "#465aa1", "primary-fixed": "#dce1ff", "on-primary-fixed-variant": "#2d4287", "surface-bright": "#f9f9ff", "inverse-on-surface": "#edf0ff", "on-error": "#ffffff", "on-secondary-container": "#435081", "on-surface-variant": "#444651", "on-surface": "#141b2c", "background": "#f9f9ff", "on-secondary": "#ffffff", "secondary-fixed": "#dce1ff", "primary-container": "#253b80", "on-secondary-fixed": "#071747", "tertiary-container": "#004842", "tertiary-fixed": "#89f5e7", "on-secondary-fixed-variant": "#374475", "outline-variant": "#c5c5d2", "primary": "#072369", "on-error-container": "#93000a", "surface-dim": "#d2daf0", "surface-container-low": "#f1f3ff", "inverse-surface": "#293041", "surface": "#f9f9ff", "on-background": "#141b2c", "surface-container-highest": "#dbe2f9", "secondary-container": "#b7c4fd", "surface-variant": "#dbe2f9", "surface-container-lowest": "#ffffff", "secondary": "#4f5c8e", "on-tertiary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2rem", "gutter": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "margin": "1.25rem", "space-xs": "0.25rem", "space-lg": "1.5rem" }, "fontFamily": { "label-md": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"], "headline-lg": ["Plus Jakarta Sans"], "body-md": ["Inter"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "mono-code": ["Inter"], "headline-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "label-lg": ["Inter"] }, "fontSize": { "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "mono-code": ["13px", { "lineHeight": "18px", "letterSpacing": "0.05em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } }</script></head><body class="bg-surface text-on-surface flex flex-col min-h-screen antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs min-w-0"><button aria-label="Back" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="DigiVault Brand Logo" class="h-7 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XaPT2hPAZaP1PRF3DRukrOHK7h9ewr_hz89HxRiGqR6HoMDpq4SY0RIhdWwWsM6Sseu4rYr59j4SBphYQvPl9NfNwv2fdv4DMKGnzQHJIsiTvxwH6ErWVDvbZ86iSrOBWwJVdRzJhmgGno26mVMdhNWdn7zV_ct77sjMlxV4dgsGtZgrfvC9zWweV4VsyaW04azzLiD1GwA6jYkW5CnqJ3cM-7fYQzg9_m55tawmuiHjc55KwBzS5Ktw"/><h1 class="font-headline-sm text-headline-sm text-on-surface truncate ml-1">07 • Document Details</h1></div><div class="flex items-center gap-space-xs flex-shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1SAyE3zQo2civeNcaDnelIaw36fP4iDIzqKKocfMwWBMEpVwsJk51YBvtB0qoDuNUHAX_1bgkNisHpPnEabd0lpbj5ApbD0vOPxwFLAdldsKGfC40EfWIjLKDI3TG2pj6XaRS-IAYAmW1qTj6iz5EMYTBypP8aUoJgVez_dOqydVREEnDfjcGcjPMJ0yJfLbsl-S78GHGsAu3AXCQMFwpJqFsuWSNi3e41oyApvZIjElhCvVA-nXd"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full pb-8">
+<!-- Developer Annotation Tag -->
+<div class="px-margin pt-2 pb-1">
+<div class="bg-surface-container-high text-on-secondary-container px-3 py-1.5 rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-1.5 min-w-0">
+<span class="material-symbols-outlined text-[16px] text-primary flex-shrink-0">terminal</span>
+<p class="font-mono-code text-mono-code truncate tracking-tight text-[11px]">S25 • PAGE 03 HOME &amp; DOC MANAGEMENT • Entry: S24 Document Details -&gt; Actions: S50/S55</p>
+</div>
+<span class="font-label-sm text-label-sm bg-primary/10 text-primary px-1.5 py-0.5 rounded">DEV HUD</span>
+</div>
+</div>
+<!-- Document Meta Sub-Bar -->
+<div class="px-margin py-2.5 flex items-center justify-between gap-2 bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-[20px] text-primary flex-shrink-0">badge</span>
+<div class="min-w-0">
+<h2 class="font-title-md text-title-md text-on-surface truncate leading-tight">Aadhaar Card (e-KYC Package)</h2>
+<div class="flex items-center gap-1.5 mt-0.5">
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2 py-0.5 rounded-full font-medium">Page 1 of 2</span>
+<span class="bg-surface-container-highest text-on-surface-variant font-mono-code text-mono-code text-[11px] px-2 py-0.5 rounded-full" id="zoomIndicator">100%</span>
+</div>
+</div>
+</div>
+<!-- Viewer Context Actions -->
+<div class="flex items-center gap-1 flex-shrink-0">
+<button aria-label="Export Restricted" class="w-9 h-9 flex items-center justify-center rounded-full bg-error-container text-on-error-container active:scale-95 transition-transform" title="Export Restricted by Issuer">
+<span class="material-symbols-outlined text-[18px]">file_download_off</span>
+</button>
+<button aria-label="Share Document" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container text-primary hover:bg-surface-container-high active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+<button aria-label="More Options" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Security Enforcement Policy Banner -->
+<div class="px-margin pt-2">
+<div class="bg-primary text-on-primary px-3 py-2 rounded-xl flex items-center gap-2.5 shadow-sm">
+<div class="w-7 h-7 rounded-lg bg-surface-tint/30 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">shield_lock</span>
+</div>
+<div class="min-w-0 flex-1">
+<p class="font-label-sm text-label-sm text-surface-variant uppercase tracking-wider font-semibold">Protected View Active</p>
+<p class="font-body-sm text-body-sm text-on-primary/90 truncate">Raw PDF export disabled by issuer policy • Hardware watermarking active</p>
+</div>
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed flex-shrink-0">verified_user</span>
+</div>
+</div>
+<!-- Viewer Canvas Container with Floating Tools -->
+<div class="px-margin pt-3 pb-2 flex flex-col items-center relative">
+<!-- Interactive Viewport Wrapper -->
+<div class="w-full relative overflow-hidden rounded-2xl bg-surface-container-lowest shadow-md transition-all duration-200" id="viewerCanvasWrapper">
+<!-- Digital Aadhaar Identity Card Core -->
+<div class="w-full relative bg-surface-container-lowest p-4 transition-transform duration-200 origin-center select-none" id="documentCanvas">
+<!-- Sovereign Header Band -->
+<div class="rounded-xl overflow-hidden shadow-sm bg-gradient-to-r from-primary via-primary-container to-primary p-3 relative text-on-primary">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-lg bg-surface-container-lowest/15 backdrop-blur-md flex items-center justify-center p-1">
+<svg class="w-7 h-7 text-tertiary-fixed" fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 2L2 7l10 5 10-5-10-5zm0 8.5L4.5 7 12 3.5 19.5 7 12 10.5zM2 17l10 5 10-5v-2.5L2 12v2.5z"></path>
+</svg>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary-fixed leading-none">भारत सरकार • GOVT OF INDIA</span>
+<span class="font-title-md text-title-md text-on-primary leading-tight font-bold">Unique Identification Authority</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-lowest/20 backdrop-blur px-2 py-1 rounded-md">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed">verified</span>
+<span class="font-label-sm text-label-sm text-on-primary font-semibold">e-KYC</span>
+</div>
+</div>
+<!-- Micro-Text Sandbox Banner -->
+<div class="mt-2 pt-1.5 border-t border-on-primary/10 flex items-center justify-between text-on-primary/80">
+<span class="font-mono-code text-[10px] tracking-wider">DIGIVAULT VERIFIED ENCLAVE #DIGI-789042</span>
+<span class="font-label-sm text-[10px] bg-tertiary-container text-tertiary-fixed px-1.5 py-0.5 rounded">AUTHENTIC RECORD</span>
+</div>
+</div>
+<!-- Identity Layout Body (Asymmetric Fintech/Govtech Style) -->
+<div class="relative mt-3 p-4 rounded-xl bg-surface-container-low shadow-sm overflow-hidden">
+<!-- Diagonal Translucent Security Watermark -->
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none z-10 select-none overflow-hidden">
+<div class="transform -rotate-25 text-center text-primary/10 font-black text-xl tracking-[0.25em] leading-loose whitespace-nowrap uppercase">
+              ITM SKILLS UNIVERSITY • DEMO SANDBOX ONLY<br/>
+              SECURE TAMPER SEAL • HARDWARE ENCLAVE
+            </div>
+</div>
+<!-- Guilloche/Vector Authenticity Accent Pattern -->
+<svg class="absolute right-0 top-0 w-36 h-36 opacity-10 text-primary pointer-events-none" fill="currentColor" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="45" stroke="currentColor" stroke-width="1.5"></circle>
+<circle cx="50" cy="50" fill="none" r="35" stroke="currentColor" stroke-width="1.5"></circle>
+<circle cx="50" cy="50" fill="none" r="25" stroke="currentColor" stroke-width="1.5"></circle>
+<path d="M50 0 v100 M0 50 h100" stroke="currentColor" stroke-width="1"></path>
+</svg>
+<!-- Core Demographics & Photo Grid -->
+<div class="relative z-20 flex gap-4">
+<!-- Left Portrait Column -->
+<div class="flex flex-col items-center flex-shrink-0">
+<div class="relative rounded-xl overflow-hidden shadow-md bg-surface-container-lowest p-1">
+<img alt="Grishma Thakare Portrait" class="w-24 h-28 object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida/AEtjO1XbBwatPxn8Pe1DrAHVsxP-X1eSKUQfj0cycp9uOOzbVlHeAb3Jndjs7Xclg9SxCTEc3cf-Q3TBPaPBP51V84Y9M6lwWoU6FoYMzmEtibxCh-aIdoMm2WjG0oui7ShLuEWZ1-pIqocerfKR9eRGsLaBHcMUzZNaLEmXDtGP9gRCFdevoSlVCN4jqZKbqZT950Z3_7nPOXPaEaaC9pHFlVehKRXsY1R0A1GPBMjFxTsI1Gsay7Ah8KL5Hw"/>
+<div class="absolute bottom-1 right-1 bg-tertiary text-tertiary-fixed rounded-full p-0.5 shadow">
+<span class="material-symbols-outlined text-[13px] block">lock</span>
+</div>
+</div>
+<span class="font-mono-code text-[9px] text-on-surface-variant mt-1.5 text-center tracking-tighter">SEC ID: GR-908234</span>
+</div>
+<!-- Right Demographics Information -->
+<div class="flex-1 min-w-0 flex flex-col justify-between py-0.5">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant font-medium">नाम / Legal Name</p>
+<p class="font-headline-sm text-headline-sm text-primary font-bold truncate">Grishma Thakare</p>
+</div>
+<div class="grid grid-cols-2 gap-2 mt-2">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">जन्म तिथि / DOB</p>
+<p class="font-title-md text-title-md text-on-surface font-semibold">14/08/2003</p>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">लिंग / Gender</p>
+<p class="font-title-md text-title-md text-on-surface font-semibold">Male</p>
+</div>
+</div>
+<div class="mt-2">
+<p class="font-label-sm text-label-sm text-on-surface-variant">पता / Address (Masked)</p>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight font-medium">Flat 402, ITM University Campus, Kharghar, Navi Mumbai, MH - 410210</p>
+</div>
+</div>
+</div>
+<!-- Separator Line with Micro Security Code -->
+<div class="relative z-20 my-3.5 flex items-center justify-between bg-surface-container px-2.5 py-1 rounded-md">
+<span class="font-mono-code text-[9px] text-on-surface-variant tracking-wider">HASH: 48f9-b82c-ae11-8891</span>
+<span class="font-mono-code text-[9px] text-tertiary-container font-semibold">SIGNATURE: VALID (UIDAI CCA)</span>
+</div>
+<!-- Masked Aadhaar Number Segment & QR Code -->
+<div class="relative z-20 flex items-center justify-between gap-3 pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium uppercase tracking-wider">Aadhaar Identification</span>
+<div class="flex items-center gap-2 mt-1">
+<div class="w-7 h-7 rounded-full bg-primary-container text-on-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">fingerprint</span>
+</div>
+<div class="flex items-center gap-1.5 font-headline-md text-headline-md font-bold tracking-wider text-primary">
+<span>XXXX</span>
+<span>XXXX</span>
+<span class="text-on-surface">1234</span>
+</div>
+</div>
+<span class="font-label-sm text-[10px] text-on-surface-variant mt-1">आधार - आम आदमी का अधिकार</span>
+</div>
+<!-- High-Res Simulated QR Code Verification Stamp -->
+<div class="flex flex-col items-center flex-shrink-0 bg-surface-container-lowest p-2 rounded-xl shadow-sm">
+<svg class="w-16 h-16 text-primary" fill="currentColor" viewbox="0 0 100 100">
+<!-- Outer Corners -->
+<rect fill="currentColor" height="30" rx="4" width="30" x="0" y="0"></rect>
+<rect fill="white" height="18" rx="2" width="18" x="6" y="6"></rect>
+<rect fill="currentColor" height="10" rx="1" width="10" x="10" y="10"></rect>
+<rect fill="currentColor" height="30" rx="4" width="30" x="70" y="0"></rect>
+<rect fill="white" height="18" rx="2" width="18" x="76" y="6"></rect>
+<rect fill="currentColor" height="10" rx="1" width="10" x="80" y="10"></rect>
+<rect fill="currentColor" height="30" rx="4" width="30" x="0" y="70"></rect>
+<rect fill="white" height="18" rx="2" width="18" x="6" y="76"></rect>
+<rect fill="currentColor" height="10" rx="1" width="10" x="10" y="80"></rect>
+<!-- QR Data Matrix Dots -->
+<circle cx="45" cy="15" fill="currentColor" r="4"></circle>
+<circle cx="55" cy="22" fill="currentColor" r="3"></circle>
+<circle cx="40" cy="35" fill="currentColor" r="3.5"></circle>
+<circle cx="60" cy="45" fill="currentColor" r="4"></circle>
+<circle cx="50" cy="50" fill="currentColor" r="5"></circle>
+<circle cx="20" cy="50" fill="currentColor" r="4"></circle>
+<circle cx="80" cy="55" fill="currentColor" r="4"></circle>
+<circle cx="45" cy="70" fill="currentColor" r="4"></circle>
+<circle cx="60" cy="80" fill="currentColor" r="3.5"></circle>
+<circle cx="85" cy="85" fill="currentColor" r="4"></circle>
+<circle cx="70" cy="70" fill="currentColor" r="3"></circle>
+</svg>
+<div class="flex items-center gap-0.5 mt-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary-container">verified</span>
+<span class="font-mono-code text-[9px] font-bold text-on-surface-variant">PKI STAMP</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Issuer Endorsement Bar -->
+<div class="mt-3 flex items-center justify-between px-2 text-on-surface-variant">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">domain_verification</span>
+<span class="font-body-sm text-body-sm">DigiVault Sovereign Storage API v4.2</span>
+</div>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Status: Active</span>
+</div>
+</div>
+</div>
+<!-- Viewer Floating Pill Control Bar -->
+<div class="mt-3 bg-inverse-surface/90 text-inverse-on-surface backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg z-30">
+<button aria-label="Zoom Out" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface-variant/20 active:scale-95 transition-all text-inverse-on-surface" id="btnZoomOut">
+<span class="material-symbols-outlined text-[20px]">zoom_out</span>
+</button>
+<span class="h-4 w-[1px] bg-outline/40"></span>
+<button aria-label="Zoom In" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface-variant/20 active:scale-95 transition-all text-inverse-on-surface" id="btnZoomIn">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</button>
+<span class="h-4 w-[1px] bg-outline/40"></span>
+<button aria-label="Fit to Width" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface-variant/20 active:scale-95 transition-all text-inverse-on-surface" id="btnFitWidth">
+<span class="material-symbols-outlined text-[20px]">fit_screen</span>
+</button>
+<span class="h-4 w-[1px] bg-outline/40"></span>
+<button aria-label="Rotate Document" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface-variant/20 active:scale-95 transition-all text-inverse-on-surface" id="btnRotate">
+<span class="material-symbols-outlined text-[20px]">rotate_right</span>
+</button>
+<span class="h-4 w-[1px] bg-outline/40"></span>
+<button aria-label="Toggle Fullscreen" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface-variant/20 active:scale-95 transition-all text-inverse-on-surface" id="btnFullscreen">
+<span class="material-symbols-outlined text-[20px]" id="fsIcon">fullscreen</span>
+</button>
+</div>
+</div>
+<!-- Bottom Action Card Drawer (S43 & S56 Trigger Points) -->
+<div class="px-margin mt-3">
+<div class="bg-surface-container rounded-2xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between pb-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-primary">security_update_good</span>
+<span class="font-title-md text-title-md text-on-surface">Security &amp; Sharing Protocols</span>
+</div>
+<span class="font-label-sm text-label-sm bg-tertiary-container text-tertiary-fixed px-2 py-0.5 rounded-full font-bold">256-BIT</span>
+</div>
+<!-- Action Button 1: Verify Authenticity (S43) -->
+<button class="w-full h-13 py-3 px-4 rounded-xl bg-primary text-on-primary flex items-center justify-between active:scale-[0.98] transition-transform shadow-sm">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-tint/40 flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed">verified</span>
+</div>
+<div class="text-left">
+<p class="font-label-lg text-label-lg text-on-primary">Verify Authenticity (S43)</p>
+<p class="font-body-sm text-body-sm text-surface-variant leading-none">Validate PKI ledger integrity against UIDAI root</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-primary">arrow_forward</span>
+</button>
+<!-- Action Button 2: Timed Share (S56) -->
+<button class="w-full h-13 py-3 px-4 rounded-xl bg-surface-container-lowest text-on-surface flex items-center justify-between active:scale-[0.98] transition-transform shadow-sm">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+</div>
+<div class="text-left">
+<p class="font-label-lg text-label-lg text-on-surface">Timed Share (S56)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-none">Generate ephemeral 10-minute encrypted link</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">qr_code_2</span>
+</button>
+</div>
+</div>
+<!-- Interactive Controls JavaScript Micro-behavior -->
+<script>
+    (function() {
+      let currentZoom = 1.0;
+      let currentRotation = 0;
+      const doc = document.getElementById('documentCanvas');
+      const indicator = document.getElementById('zoomIndicator');
+      const btnIn = document.getElementById('btnZoomIn');
+      const btnOut = document.getElementById('btnZoomOut');
+      const btnFit = document.getElementById('btnFitWidth');
+      const btnRot = document.getElementById('btnRotate');
+      const btnFs = document.getElementById('btnFullscreen');
+      const fsIcon = document.getElementById('fsIcon');
+      const wrapper = document.getElementById('viewerCanvasWrapper');
+
+      function updateTransform() {
+        doc.style.transform = `scale(${currentZoom}) rotate(${currentRotation}deg)`;
+        indicator.textContent = `${Math.round(currentZoom * 100)}%`;
+      }
+
+      if (btnIn) {
+        btnIn.addEventListener('click', () => {
+          if (currentZoom < 1.8) {
+            currentZoom = parseFloat((currentZoom + 0.15).toFixed(2));
+            updateTransform();
+          }
+        });
+      }
+
+      if (btnOut) {
+        btnOut.addEventListener('click', () => {
+          if (currentZoom > 0.7) {
+            currentZoom = parseFloat((currentZoom - 0.15).toFixed(2));
+            updateTransform();
+          }
+        });
+      }
+
+      if (btnFit) {
+        btnFit.addEventListener('click', () => {
+          currentZoom = 1.0;
+          currentRotation = 0;
+          updateTransform();
+        });
+      }
+
+      if (btnRot) {
+        btnRot.addEventListener('click', () => {
+          currentRotation = (currentRotation + 90) % 360;
+          updateTransform();
+        });
+      }
+
+      if (btnFs) {
+        btnFs.addEventListener('click', () => {
+          if (!document.fullscreenElement) {
+            wrapper.requestFullscreen().catch(() => {});
+            fsIcon.textContent = 'fullscreen_exit';
+          } else {
+            document.exitFullscreen().catch(() => {});
+            fsIcon.textContent = 'fullscreen';
+          }
+        });
+      }
+    })();
+  </script>
+</div></main>
+</body></html>

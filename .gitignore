@@ -46,3 +46,9 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Presentation Documentation Files
+TECHNICAL_DOCUMENTATION.html
+TECHNICAL_DOCUMENTATION.md
+TECHNICAL_PRESENTATION_DOC.md
+
